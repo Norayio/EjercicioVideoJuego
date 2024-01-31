@@ -78,18 +78,21 @@ public class EjercicioVideoJuego {
         
         
        // recorrer el ArrayList y mostrar por consola los video juegos que sean de Nintendo 64
-       
        for ( VideoJuego videoJuego : listaVideoJuegos ) {
            
-           if ( videoJuego.getConsola( ).equals("Nintengo 64") ) {
+           if ( videoJuego.getConsola( ).equals("Nintendo 64") ) {
+               
                System.out.println(videoJuego.toString( ) );
+           } else {
+               System.out.println("no es de Nintendo 64");
            }
            
        }
+        
        
-        
-        
-        
+       
+       
+       
     }
     
 }
