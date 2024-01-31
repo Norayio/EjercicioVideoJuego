@@ -38,6 +38,25 @@ public class EjercicioVideoJuego {
         VideoJuego vjuego5 = new VideoJuego( 100, "Mario Kart", "Nintendo 64", 2, "plataforma");
         
         // agregamos los videojuegos creados a la lista "listaVideoJuegos"
+        listaVideoJuegos.add(vjuego1);
+        listaVideoJuegos.add(vjuego2);
+        listaVideoJuegos.add(vjuego3);
+        listaVideoJuegos.add(vjuego4);
+        listaVideoJuegos.add(vjuego5);
+        
+        // recorrer el ArrayList y mostrar por consola
+        
+        
+        /**
+         *  por cada videoJuego : de la listaVideoJuegos
+         */
+        for (VideoJuego videoJuego : listaVideoJuegos ) {
+            System.out.println("titulo: "+ videoJuego.getTitulo( ) );
+            System.out.println("consola: "+ videoJuego.getConsola( ) );
+            System.out.println("cantidad de jugadores: "+ videoJuego.getCantJugadores( ) );
+        }
+        
+        
         
         
         
