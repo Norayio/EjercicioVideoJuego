@@ -46,7 +46,6 @@ public class EjercicioVideoJuego {
         
         // recorrer el ArrayList y mostrar por consola
         
-        
         /**
          *  por cada videoJuego : de la listaVideoJuegos
          */
@@ -57,7 +56,20 @@ public class EjercicioVideoJuego {
         }
         
         
+        // cambiar el nombre y la cantidad de jugadores de dos video juegos a elección
+        // mostrar los datos de todos los video juegos para ver los cambios.
         
+        /**
+         *  Banjo Kazooie
+         */
+        vjuego1.setTitulo("Banjo Kazooie II");
+        vjuego1.setCantJugadores(1);
+        
+        /**
+         *  Mario Kart
+         */
+        vjuego5.setTitulo("Mario Kart 64");
+        vjuego5.setCantJugadores(5);
         
         
         
