@@ -50,11 +50,16 @@ public class EjercicioVideoJuego {
          *  por cada videoJuego : de la listaVideoJuegos
          */
         for (VideoJuego videoJuego : listaVideoJuegos ) {
+            
             System.out.println("titulo: "+ videoJuego.getTitulo( ) );
             System.out.println("consola: "+ videoJuego.getConsola( ) );
             System.out.println("cantidad de jugadores: "+ videoJuego.getCantJugadores( ) );
+            
         }
         
+        // espacios para mejor lectura
+        System.out.println("----------");
+        System.out.println("----------");
         
         // cambiar el nombre y la cantidad de jugadores de dos video juegos a elección
         // mostrar los datos de todos los video juegos para ver los cambios.
@@ -70,6 +75,18 @@ public class EjercicioVideoJuego {
          */
         vjuego5.setTitulo("Mario Kart 64");
         vjuego5.setCantJugadores(5);
+        
+        
+       // recorrer el ArrayList y mostrar por consola los video juegos que sean de Nintendo 64
+       
+       for ( VideoJuego videoJuego : listaVideoJuegos ) {
+           
+           if ( videoJuego.getConsola( ).equals("Nintengo 64") ) {
+               System.out.println(videoJuego.toString( ) );
+           }
+           
+       }
+       
         
         
         

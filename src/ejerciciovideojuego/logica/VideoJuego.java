@@ -74,7 +74,11 @@ public class VideoJuego {
     }
     
     
-    
+    // toString
+    @Override
+    public String toString() {
+        return "VideoJuego{" + "codigo=" + codigo + ", titulo=" + titulo + ", consola=" + consola + ", cantJugadores=" + cantJugadores + ", categoria=" + categoria + '}';
+    }
     
     
     
